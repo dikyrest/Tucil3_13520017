@@ -1,4 +1,6 @@
-from asyncio.windows_events import NULL
+# main.py
+# Contains main program including GUI
+
 import tkinter as tk
 import time
 from puzzle import Puzzle
@@ -59,7 +61,7 @@ def clear_puzzle_frame():
 
 # Command for puzzle button to move empty cell
 def puzzle_switch(btn):
-    if (solution_array != NULL):
+    if (solution_array != None):
         if (len(solution_array)>0):
             num = btn["text"]
             move = solution_array[0].move
@@ -98,7 +100,7 @@ def solve_button_clicked():
     clear_puzzle_frame()
 
     # Variable to store the solution
-    solution_array = NULL
+    solution_array = None
 
     # Get filename from user input
     filename = filename_entry.get()
