@@ -1,5 +1,5 @@
-# stateSpaceTree.py
-# Contains the class StateSpaceTree to represent the state space tree in BnB
+# Node.py
+# Contains the class Node to represent the state space tree in BnB
 
 class Node:
     def __init__(self, puzzle, parent=None, depth=0, move=""):
