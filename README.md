@@ -23,7 +23,7 @@ python main.py
 - Enter file name in text box (ex. `solvable1.txt`), then click `solve` button
 - If the puzzle is solvable, you'll see command (`Up, Down, Left, Right`) above the puzzle
 - Follow the command by clicking the right tile (if command is `Up`, click the upside tile of empty tile)
-- Those command will lead you to victory. So, enjoy the game!
+- Those command will lead you to victory. So, enjoy the game!\
 Note: You can see available file in `test` folder
 
 ## **Author**
